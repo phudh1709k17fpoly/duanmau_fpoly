@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.conatiner {
+ 
+  margin: 0 30px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 20% 50% 25%;
+  justify-content: space-between;
+  height: 90px;
+  border-bottom: 2px solid #808080;
+}
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+.nav ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.nav li {
+   list-style: none;
+}
+.nav li:hover{
+  border-bottom: 1px solid black;
+}
+.nav li a {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+.contact {
+  display: flex;
+  justify-content: right;
+  margin-top: 5%;
+  gap: 10px;
+}
+.bnt1 button,
+.bnt2 button {
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+button a{
+  text-decoration: none;
+}
+button a:hover{
+  border-bottom: 1px solid black;
+}
+.bnt2 :hover {
+  
+  transition: 1s all;
+}
+.bnt1 :hover {
+  
+  transition: 1s all;
+}
+
+.bnt1 button {
+  background-color: yellowgreen;
+}
+#main {
+  width: 100%;
+}
+
+.categories{
+   width: 100%;
+   margin-top: 10%;
+}
+
+/* /// sản phẩm khối 2 */
+.products {
+  width: 100%;
+  border-radius: 5px;
+}
+.news {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+/* .core_products h3{
+   text-align: center;
+ 
+ } */
+.bnt_prd button {
+  margin-top: 2%;
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  border-radius: 3px;
+}
+.bnt_prd :hover {
+  background-color: yellow;
+  transition: 1s all;
+}
+/* KHối 1 slects */
+.select {
+  border: 1px solid #808080;
+  border-radius: 5px;
+}
+
+.content_selects {
+  width: 85%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+.content_selects ul {
+  margin-top: 30px;
+}
+.content_selects li {
+  margin-top: 20px;
+}
+.h2 {
+  margin-top: 80px;
+}
